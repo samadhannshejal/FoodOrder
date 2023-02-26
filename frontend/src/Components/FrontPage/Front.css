@@ -1,0 +1,27 @@
+.front{
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(#e66465, #9198e5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size:5cqmax;
+    color: aqua;
+
+}
+button{
+    background-color: #101710;
+  border: none;
+  color: white;
+  padding: 25px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: larger;
+  border-radius: 180px;
+}

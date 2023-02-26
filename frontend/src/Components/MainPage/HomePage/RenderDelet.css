@@ -1,0 +1,63 @@
+.gridAllRestra{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+  }
+  .box {
+    border: 2px solid #ffa500;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 500px;
+    background-color: #ffdab9;
+    box-shadow: 5px 5px 5px #888;
+    opacity: 0;
+    animation: show 1.3s ease-in-out forwards;
+  }
+  @keyframes show {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 2em;
+    color: #ff6347;
+  }
+  
+  h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #008000;
+  }
+  
+  .food-items {
+    margin-top: 20px;
+  }
+  
+  .food-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .food-item-name {
+    margin: 0;
+    font-weight: bold;
+    color: #4b0082;
+    font-size: 1.2em;
+  }
+  
+  .food-item-price {
+    margin: 0 0 0 20px;
+    color: #1e90ff;
+    font-size: 1.2em;
+  }
+  .btn{
+    background-color: red;
+  }

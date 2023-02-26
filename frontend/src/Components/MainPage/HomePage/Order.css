@@ -1,0 +1,27 @@
+.order{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+.order:hover{
+    background-color: #008CBA; /* Dark blue */
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.grid{
+  
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap: 10px;
+    
+}
